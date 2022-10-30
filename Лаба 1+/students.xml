@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><group>
+    <student firstname="Dolgikh" groupnumber="MOIS-01" lastname="Dmitriy">
+        <subject mark="2" title="Programming"/>
+        <subject mark="2" title="Operation System"/>
+        <subject mark="5" title="SUBD"/>
+        <subject mark="4" title="TRPO"/>
+    <average>3</average></student>
+    <student firstname="Igor" groupnumber="MOIS-01" lastname="Bogryantsev">
+        <subject mark="5" title="Programming"/>
+        <subject mark="5" title="Operation System"/>
+        <subject mark="5" title="SUBD"/>
+        <subject mark="4" title="TRPO"/>
+ <average>4</average></student>
+    <student firstname="Rum" groupnumber="MOIS-01" lastname="Shatalov">
+        <subject mark="2" title="Programming"/>
+        <subject mark="2" title="Operation System"/>
+        <subject mark="5" title="SUBD"/>
+        <subject mark="4" title="TRPO"/>
+    <average>3</average></student>
+    <student firstname="Dean" groupnumber="MOIS-01" lastname="Winchester">
+        <subject mark="4" title="Programming"/>
+        <subject mark="4" title="Operation System"/>
+        <subject mark="4" title="SUBD"/>
+        <subject mark="4" title="TRPO"/>
+    <average>4</average></student>
+    <student firstname="Sam" groupnumber="MOIS-01" lastname="Winchester">
+        <subject mark="5" title="Programming"/>
+        <subject mark="5" title="Operation System"/>
+        <subject mark="5" title="SUBD"/>
+        <subject mark="5" title="TRPO"/>
+    <average>5</average></student>
+</group>
