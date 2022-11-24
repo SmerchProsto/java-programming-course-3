@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>IndexJSP</servlet-name>
+        <jsp-file>/index.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndexJSP</servlet-name>
+        <url-pattern>/index-jsp</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ErrorJSP</servlet-name>
+        <jsp-file>/error.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ErrorJSP</servlet-name>
+        <url-pattern>/error-jsp</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>EmployeesJSP</servlet-name>
+        <jsp-file>/employees.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EmployeesJSP</servlet-name>
+        <url-pattern>/employees-jsp</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ErrorEmployees</servlet-name>
+        <jsp-file>/errorEmployees.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ErrorEmployees</servlet-name>
+        <url-pattern>/error-employees-jsp</url-pattern>
+    </servlet-mapping>
+</web-app>
